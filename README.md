@@ -1,0 +1,2 @@
+# skyblock
+stupid website
