@@ -7,7 +7,7 @@ body {
 }
 .banner-text {
 	width: 100%;
-	position: absolute;
+	position: relative;
 	z-index: 1;
 }
 .banner-text ul {
@@ -54,4 +54,8 @@ body {
 	color: #fff;
 	text-align: center;
 	font-size: 50px;
+	display: inline-block;
+	position: absolute;
+	padding-top: 15px;
+	padding-left: 15px;
 }

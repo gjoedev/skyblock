@@ -19,7 +19,8 @@ form{
     display:flex;
     flex-direction: row;
     background-color: #323335;
-    align-items: center;
+    margin: auto;
+    margin-top: 5%
 }
 
 input{
@@ -36,10 +37,37 @@ button{
     background-color: transparent;
     outline-color: transparent;
     border:none;
-    padding-left: 50px;
+    margin-right:.5%;
 }
 
 ::placeholder{
     color:#ffff;
     opacity: .69;
 }
+
+.results{
+    margin:auto;
+    padding-top: 2.5%;
+}
+
+.resultlist li{
+    list-style: none;
+	width: 60%;
+    height: 550px;
+    background-color: rgb(99, 99, 99);
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+.stats{
+    display:inline-table;
+    color: #fff;
+    font-size: 50px;
+    padding-left: 1%;
+}
+
+
+/* .resultlist li:nth-child(1){
+
+} */
