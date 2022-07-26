@@ -47,7 +47,7 @@ button{
 
 .results{
     margin:auto;
-    padding-top: 2.5%;
+    /* padding-top: 2.5%; */
 }
 
 .resultlist li{
@@ -67,6 +67,21 @@ button{
     padding-left: 1%;
 }
 
+.errormessage{
+    width: 60%;
+    height: 30px;
+    background-color: red;
+    border-radius: 10px;
+    margin: auto;
+    list-style: none;
+    color:#fff;
+}
+
+.error{
+    position: relative;
+    margin: auto;
+    padding-bottom: 2.5%;
+}
 
 /* .resultlist li:nth-child(1){
 
