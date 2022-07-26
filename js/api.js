@@ -1,6 +1,17 @@
 //pwease dont steal my key🥺🥺🥺
 const key = "f95b4ea2-28f6-45a1-94fe-c0ee1079de09"
-var br
+const f = document.getElementById("form")
+const q = document.getElementById("query")
+let search
+
+
+function submit(event){
+    event.preventDefault();
+    search = q.value.toUpperCase().split(" ").join("_")
+    console.log(data[search].quick_status.sellPrice)
+}
+
+
 
 // fetch(`https://api.hypixel.net/key?key=${key}`)
 //     .then(result=> result.json())
@@ -18,3 +29,6 @@ var br
 //     .then(({products})=>{
 //         console.log(products.POTATO_ITEM.quick_status.buyPrice)
 //     })
+
+
+f.addEventListener(`submit`, submit)
